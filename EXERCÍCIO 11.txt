@@ -1,0 +1,10 @@
+Algoritmo "media"
+Var
+m: real
+Inicio
+m <- (2 + 3 + 5) /3
+escreva ("Sua media é: ", m)
+
+
+
+Fimalgoritmo

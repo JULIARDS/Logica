@@ -1,0 +1,16 @@
+Algoritmo "NumANumB"
+Var
+NumA: inteiro
+NumB: inteiro
+troca: inteiro
+Inicio
+escreva ("Digite um numero: ")
+leia (NumA)
+escreva ("Digite um numero: ")
+leia (NumB)
+troca <- NumA
+NumA <- NumB
+NumB <- troca
+escreva ("O novo valor de NumA é: ", NumA)
+escreva ("O novo valor de NumB é: ", NumB)
+Fimalgoritmo

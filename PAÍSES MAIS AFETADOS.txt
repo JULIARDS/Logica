@@ -1,0 +1,168 @@
+Algoritmo "PAÍSES MAIS AFETADOS"
+Var
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15: caractere
+c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15: inteiro
+m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15: inteiro
+mediac: real
+mediam: real
+medianac: real
+medianam: real
+Inicio
+escreva ("Digite os 15 países")
+escreva (" ")
+leia (p1)
+escreva (" ")
+leia (p2)
+escreva (" ")
+leia (p3)
+escreva (" ")
+leia (p4)
+escreva (" ")
+leia (p5)
+escreva (" ")
+leia (p6)
+escreva (" ")
+leia (p7)
+escreva (" ")
+leia (p8)
+escreva (" ")
+leia (p9)
+escreva (" ")
+leia (p10)
+escreva (" ")
+leia (p11)
+escreva (" ")
+leia (p12)
+escreva (" ")
+leia (p13)
+escreva (" ")
+leia (p14)
+escreva (" ")
+leia (p15)
+
+escreva ("Digite o numero de casos")
+escreva (" ")
+leia (c1)
+escreva (" ")
+leia (c2)
+escreva (" ")
+leia (c3)
+escreva (" ")
+leia (c4)
+escreva (" ")
+leia (c5)
+escreva (" ")
+leia (c6)
+escreva (" ")
+leia (c7)
+escreva (" ")
+leia (c8)
+escreva (" ")
+leia (c9)
+escreva (" ")
+leia (c10)
+escreva (" ")
+leia (c11)
+escreva (" ")
+leia (c12)
+escreva (" ")
+leia (c13)
+escreva (" ")
+leia (c14)
+escreva (" ")
+leia (c15)
+
+escreva ("Digite o numero de mortos")
+escreva (" ")
+leia (m1)
+escreva (" ")
+leia (m2)
+escreva (" ")
+leia (m3)
+escreva (" ")
+leia (m4)
+escreva (" ")
+leia (m5)
+escreva (" ")
+leia (m6)
+escreva (" ")
+leia (m7)
+escreva (" ")
+leia (m8)
+escreva (" ")
+leia (m9)
+escreva (" ")
+leia (m10)
+escreva (" ")
+leia (m11)
+escreva (" ")
+leia (m12)
+escreva (" ")
+leia (m13)
+escreva (" ")
+leia (m14)
+escreva (" ")
+leia (m15)
+
+
+escreva ("PAÍSES                      CAS0S                         MORTE)
+escreva (P1, "                     ", c1, "                     ",     m1)
+escreva (P2, "                     ", c2, "                     ",     m2)
+escreva (P3, "                     ", c3, "                     ",     m3)
+escreva (P4, "                     ", c4, "                     ",     m4)
+escreva (P5, "                     ", c5, "                     ",     m5)
+escreva (P6, "                     ", c6, "                     ",     m6)
+escreva (P7, "                     ", c7  "                     ",     m7)
+escreva (P8, "                     ", c8, "                     ",     m8)
+escreva (P9, "                     ", c9, "                     ",     m9)
+escreva (P10, "                    ", c10, "                    ",    m10)
+escreva (P11, "                    ", c11, "                    ",    m11)
+escreva (P12, "                    ", c12, "                    ",    m12)
+escreva (P13,                      ", c13, "                    ",    m13)
+escreva (P14, "                    ", c14, "                    ",    m14)
+escreva (P15, "                    ", c15, "                    ",    m15)
+
+mediac <- (c1+c2+c3+c4+c+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15)/15
+mediam <- (m1+m2+m3+m4+m5m6,m7,m8,m9,m10,m11,m12,m13,m14,m15:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
+
+Fimalgoritmo

@@ -1,0 +1,23 @@
+Algoritmo "NOMEIDADE"
+Var
+n: caractere
+i: inteiro
+g: inteiro
+resultado: inteiro
+Inicio
+escreva ("Seja bem vindo!!! Digite seu nome: ")
+leia (n)
+escreva ("Agora digite sua idade: ")
+leia (i)
+escreva ("De acordo com seu gênero com que idade você se aposenta: ")
+leia (g)
+se (i < 18) entao
+escreva (n, "você ainda é muito novo!!")
+senao
+resultado <- g - i
+escreva ("Faltam", resultado, " para você se aposentar")
+fimse
+
+
+
+Fimalgoritmo

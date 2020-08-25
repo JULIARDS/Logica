@@ -1,0 +1,31 @@
+Algoritmo "dobrodotamanho"
+Var
+v1: vetor [1..5] de inteiro
+v2: vetor [6..10] de inteiro
+v3: vetor [1..10] de inteiro
+contador: inteiro
+Inicio
+para contador de 1 ate <= 5 faca
+escreva ("Digite o 1° valor: ")
+leia (v1[contador])
+contador <- contador + 5
+escreva ("Digite o 2° valor: ")
+leia (v2[contador])
+fimpara
+contador <- 1
+enquanto contador <= 5 faca
+v3 [contador] <- v1[contador]
+contador <- contador + 1
+fimenquanto
+contador <- 6
+enquanto contador <= 10 faca
+v3 [contador] <- v2 [contador]
+contador <- contador +1
+fimenquanto
+contador <- 1
+para contador de 1 ate 10 faca
+escreva ("   v3=",v3[contador])
+fimpara
+
+
+Fimalgoritmo

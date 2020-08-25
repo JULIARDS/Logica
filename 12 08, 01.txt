@@ -1,0 +1,29 @@
+Algoritmo "12 08, 01"
+Var
+i : inteiro
+vet1: vetor [1..5] de inteiro
+vet2: vetor [1..5] de inteiro
+
+Inicio
+para i de 1 ate 5 faca
+escreva(" vetor a")
+escreva("informe o valor da posiçao ",i,)
+leia(vet1[i])
+fimpara
+limpatela
+para i de 1 ate 5 faca
+vet2[i]<-vet1[i]
+fimpara
+escreva("vetor a")
+escreva("")
+para i de 1 ate 5 faca
+escreva(vet1[i])
+fimpara
+escreva("")
+escreva("vetor b")
+escreva("")
+para i de 1 ate 5 faca
+escreva(vet2[i])
+fimpara
+
+Fimalgoritmo

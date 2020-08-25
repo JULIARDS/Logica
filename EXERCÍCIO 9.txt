@@ -1,0 +1,19 @@
+Algoritmo "BANCO"
+Var
+saldoatual: real
+valorsaque: real
+valordeposito: real
+Inicio
+saldoatual:= 1125
+escreva ("Bem vindo! Digite o valor de saque: ")
+leia (valorsaque)
+saldoatual := saldoatual - valorsaque
+escreva ("Saldo atual: R$" , saldoatual  )
+se valorsaque > saldoatual ENTAO
+escreva ("conta estourada, ")
+escreva ("Digite o valor do deposito: ")
+leia (valordeposito)
+saldoatual := valordeposito + saldoatual
+escreva ("Seu saldo atual é R$ ",      saldoatual)
+
+Fimalgoritmo

@@ -1,0 +1,10 @@
+Algoritmo "pares"
+Var
+par: inteiro
+Inicio
+par <- 0
+enquanto par < 101 faca
+escreva (par)
+par <- par + 2
+fimenquanto
+Fimalgoritmo

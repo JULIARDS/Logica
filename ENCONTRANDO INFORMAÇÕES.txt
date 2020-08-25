@@ -1,0 +1,30 @@
+Algoritmo "COVID"
+Var
+paises: vetor [1..15] de caractere
+casos: vetor [1..15] de inteiro
+mortes: vetor [1..15] de inteiro
+contador, posicao: inteiro
+pais:caractere
+
+Inicio
+para contador de 1 ate 15 faca
+escreva ("Digite o nome do", contador, "° país: ")
+leia (paises[contador])
+escreva ("Digite o número de casos: ")
+leia (casos[contador])
+escreva ("Digite o número de mortes: ")
+leia (mortes[contador])
+fimpara
+posicao <-1
+escreval ("Digite o país a ser procurado: ")
+leia (pais)
+enquanto (posicao < 15) e (paises[posicao] <> pais) faca
+posicao <- posicao + 1
+fimenquanto
+se pais = paises [posicao] entao
+escreval ("Nome encontrado!!!!", paises[contador], "número de casos: ", casos[contador], " número de mortes: ", mortes[contador])
+senao
+escreval ("País não encontrado")
+fimse
+
+Fimalgoritmo

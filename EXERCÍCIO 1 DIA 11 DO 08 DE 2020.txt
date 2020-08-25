@@ -1,0 +1,12 @@
+Algoritmo "parouimpar"
+Var
+n: inteiro
+Inicio
+escreva ("Bem vindo!!! Digite um numero: ")
+leia (n)
+se n mod 2 = 0 entao
+escreva ("Numero digitado é par!!!")
+senao
+escreva ("Numero digitado é impar!!!")
+fimse
+Fimalgoritmo

@@ -1,0 +1,11 @@
+Algoritmo "M"
+Var
+M: real
+Inicio
+escreva ("1")
+M<- 2
+enquanto M<21 faca
+escreval ("1/", M)
+M<-M + 1
+fimenquanto
+Fimalgoritmo

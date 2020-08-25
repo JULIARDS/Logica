@@ -1,0 +1,28 @@
+Algoritmo "COVID"
+Var
+paises: vetor [1..15] de caractere
+casos: vetor [1..15] de inteiro
+mortes: vetor [1..15] de inteiro
+contador: inteiro
+soma,nota,mediac,mediam,medianac,medianam: vetor [1..15] de real
+
+Inicio
+para contador de 1 ate 15 faca
+escreva ("Escreva os país: ")
+c
+escreva ("Digite o número de casos: ")
+leia (casos[contador])
+escreva ("Digite o número de mortes: ")
+leia (mortes[contador])
+mediac[contador] <- (casos[contador]/15)
+escreval ("A média de casos é:  ", mediac[contador])
+mediam [contador] <-mortes[contador] /15
+escreval ("A media de mortes é: ", mediam[contador])
+medianac[contador] <- (mediac[contador]+1)/2)
+escreval ("A mediana de casos é: ", medianac[contador])
+medianam [contador] <-(mediam[contador]+1)/2
+escreval ("A mediana de mortes é: ", medianam[contador])
+
+
+fimpara
+Fimalgoritmo

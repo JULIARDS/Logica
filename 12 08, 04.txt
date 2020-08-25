@@ -1,0 +1,19 @@
+Algoritmo "100%"
+var
+paises, casos, mortes: vetor [0..14] de real
+c: inteiro
+porcentagem : vetor [0..14] de real
+inicio
+para c de 0 ate 14 faca
+escreva ("Digite o nome do país: ")
+leia (paises[c])
+escreva ("Digite o número de casos: ")
+leia (casos[c])
+escreva ("Digite o número de óbitos: ")
+leia (mortes[c])
+porcentagem[c] <- casos[c] - mortes[c]
+porcentagem[c] <- casos [c]
+escreva ("A porcentagem de óbitos é de: ", porcentagem[c] /100 , "%")
+escreva ("----------------------------")
+fimpara
+Fimalgoritmo

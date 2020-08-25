@@ -1,0 +1,13 @@
+Algoritmo "PRÊMIO"
+Var
+v: real
+Inicio
+escreva ("Bem vindo Jake, Digite o numero de vendas que voce realizou: ")
+leia (v)
+se v >= 1500 entao
+escreva ("Ganhou!")
+senao
+se v < 1500 entao
+escreva ("Não ganhou!")
+fimse
+Fimalgoritmo

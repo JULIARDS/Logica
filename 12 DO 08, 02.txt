@@ -1,0 +1,22 @@
+Algoritmo "soma"
+Var
+n1: vetor [0..2] de inteiro
+n2: vetor [0..2] de inteiro
+resultado: vetor [0..2] de inteiro
+a: inteiro
+
+Inicio
+para a de 0 ate 2 faca
+escreva ("Digite o numero: ")
+leia (n1[a])
+fimpara
+para a de 0 ate 2 faca
+escreva ("Digite o numero: ")
+leia (n2[a])
+fimpara
+para a de 0 ate 2 faca
+resultado[a] <- n1[a]+ n2[a]
+escreva (" n1 = ", n1 [a], ", n2 = ", n2 [a], ", resultado = ", resultado [a])
+fimpara
+
+Fimalgoritmo

@@ -1,0 +1,18 @@
+Algoritmo "MaioreMenor"
+Var
+n1: inteiro
+n2: inteiro
+Inicio
+escreva ("Bem vindo!!!! Digite um numero: ")
+leia (n1)
+escreva ("Digite um numero: ")
+leia (n2)
+se n1 > n2 entao
+escreva (n1, "é maior que", n2, "e", n2, "é menor")
+senao
+se n1 < n2 entao
+escreva (n1, "é menor que", n2, "e", n2, "é maior")
+fimse
+
+Fimalgoritmo
+fimse

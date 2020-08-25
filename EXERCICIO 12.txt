@@ -1,0 +1,16 @@
+Algoritmo "Dias vividos"
+Var
+nome: caractere
+idade, vida: inteiro
+
+Inicio
+escreva ("Digite seu nome: ")
+leia (nome)
+escreva ("Digite a sua idade: ")
+leia (idade)
+vida <- idade*365
+escreva ("você viveu,", vida,     "  dias")
+
+
+
+Fimalgoritmo
